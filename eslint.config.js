@@ -32,7 +32,7 @@ export default defineConfigWithVueTs(
    * pluginVue.configs["flat/recommended"]
    *   -> Above, plus rules to enforce subjective community defaults to ensure consistency.
    */
-  pluginVue.configs[ 'flat/essential' ],
+  pluginVue.configs[ 'flat/recommended' ],
 
   {
     files: ['**/*.ts', '**/*.vue'],
@@ -41,10 +41,11 @@ export default defineConfigWithVueTs(
         'error',
         { prefer: 'type-imports' }
       ],
-    }
+    },
   },
   // https://github.com/vuejs/eslint-config-typescript
-  vueTsConfigs.recommendedTypeChecked,
+  vueTsConfigs.strict,
+  vueTsConfigs.stylistic,
 
   {
     languageOptions: {
@@ -66,6 +67,8 @@ export default defineConfigWithVueTs(
     // add your custom rules here
     rules: {
       'prefer-promise-reject-errors': 'off',
+      indent: ['error', 2],
+      '@typescript-eslint/no-non-null-assertion': 'off',
 
       // allow debugger during development only
       'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'

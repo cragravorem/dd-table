@@ -1,0 +1,22 @@
+.use-resize-table
+  table-layout: fixed
+
+  &__header
+    position: relative
+
+  &__resize-handle
+    position: absolute
+    right: 0
+    top: 50%
+    transform: translateY(-50%)
+    height: 16px
+    width: 12px
+    border-right: 3px dotted var(--q-primary)
+    cursor: col-resize
+    transition: all 250ms ease
+
+    &:hover, &:active, &:focus
+      top: 0
+      transform: none
+      height: 100%
+      border-right: 3px solid var(--q-primary)
