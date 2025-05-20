@@ -1,6 +1,6 @@
 # DevDays Table (dd-table)
 
-[Presentation slides](https://docs.google.com/presentation/d/18LJGHVeE-j5S7XcOWjs0Y28_TE-FkneO9gTm6vKK-Rc/edit?usp=sharing)
+[Presentation slides](https://docs.google.com/presentation/d/e/2PACX-1vS0SlvnTN2TeUhHd_D2tstZZhq26XPZ4tsvCIu_VAix1WHVH2MsPneDRY3LiPvTKvt99SXGJcODG40t/pub?start=true&loop=false&delayms=3000)
 
 ## Install the dependencies
 ```bash
