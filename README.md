@@ -1,6 +1,6 @@
 # DevDays Table (dd-table)
 
-A Quasar Project
+[Presentation slides](https://docs.google.com/presentation/d/18LJGHVeE-j5S7XcOWjs0Y28_TE-FkneO9gTm6vKK-Rc/edit?usp=sharing)
 
 ## Install the dependencies
 ```bash
